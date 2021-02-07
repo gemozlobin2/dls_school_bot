@@ -1,0 +1,9 @@
+numpy==1.20.0
+Pillow==8.1.0
+pyTelegramBotAPI==3.7.6
+requests==2.25.1
+torch==1.7.1+cu101
+torchaudio==0.7.2
+torchfile==0.1.0
+torchvision==0.8.2+cu101
+urllib3==1.26.3

@@ -1,0 +1,13 @@
+[bot]
+token = TOKEN
+log_level = INFO
+
+[wkt]
+weights_path = /var/data/weights
+style_alpha = 0.5
+max_size = 1000
+
+[cartoongan]
+weights_path = /var/data/weights
+max_size = 512
+style_name = Hayao
