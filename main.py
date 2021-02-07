@@ -7,6 +7,9 @@ from PIL import Image
 from state import StateEnum, StateManager
 from handlers import style_transfer_handler, cycle_gan_handler
 
+telebot.apihelper.SESSION_TIME_TO_LIVE = 300
+telebot.apihelper.RETRY_ON_ERROR = True
+
 config = configparser.ConfigParser()
 config.read(os.path.join(os.path.abspath(os.path.dirname(__file__)), "settings.ini"))
 
