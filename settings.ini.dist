@@ -6,6 +6,7 @@ log_level = INFO
 weights_path = /var/data/weights
 style_alpha = 0.5
 max_size = 1000
+max_layers = 5
 
 [cartoongan]
 weights_path = /var/data/weights
